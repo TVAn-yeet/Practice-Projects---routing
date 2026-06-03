@@ -169,5 +169,6 @@ class DVrouter(Router):
         return (
             f"Router {self.addr}\n"
             f"DV={self.distance_vector}\n"
-            f"FT={self.forwarding_table}"
+            f"FT={self.forwarding_table}\n"
+            f"NBR={self.neighbors}"
         )
